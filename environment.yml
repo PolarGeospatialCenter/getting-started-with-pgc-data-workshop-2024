@@ -1,0 +1,26 @@
+name: pgc-user-workshop-2024
+channels:
+  - conda-forge
+dependencies:
+  ##### Common dependencies #####
+  - python=3.11
+  - pip
+  - jupyterlab
+
+  ##### Change detection dependencies #####
+
+  # Install all pdemtools dependencies via conda so that the pip install 
+  # of the library just has to verify that everything is present
+  - rioxarray
+  - rasterio
+  - geopandas
+  - pandas
+  - shapely
+  - numpy
+  - opencv
+  - gdal
+  - scipy
+  - numba
+  - pyarrow
+  - pip:
+    - git+https://github.com/trchudley/pdemtools.git
