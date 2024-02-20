@@ -8,6 +8,7 @@ dependencies:
   - jupyterlab
 
   ##### Coregistration dependencies #####
+  - jupyterlab_rise
   - matplotlib
   - numpy
   - folium
