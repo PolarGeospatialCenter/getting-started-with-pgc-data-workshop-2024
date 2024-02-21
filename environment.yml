@@ -19,6 +19,7 @@ dependencies:
   - leafmap
   - pystac-client
   - odc-stac
+  - localtileserver
 
   # Install all pdemtools dependencies via conda so that the pip install 
   # of the library just has to verify that everything is present
