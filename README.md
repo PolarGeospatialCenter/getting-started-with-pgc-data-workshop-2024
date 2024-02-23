@@ -14,8 +14,12 @@ The workshop utilizes `conda`, via the Anaconda distribution, to build the execu
     ```bash
     conda config --set solver libmamba
     ```
+   If you get a `CondaValueError` you might need to first install the `conda-libmamba-solver` package:
+   ```bash
+   conda install -n base conda-libmamba-solver
+   ```
 
-5. Create the workshop environment from the provided `environment.yml` file.
+5. Create the workshop environment from the provided `environment.yml` file. This might take a few minutes to complete.
     ```bash
     conda env create --name pgc-user-workshop-2024 --file environment.yml
     ```
