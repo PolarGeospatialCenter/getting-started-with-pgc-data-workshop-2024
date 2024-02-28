@@ -9,6 +9,7 @@ dependencies:
 
   ##### Coregistration dependencies #####
   - jupyterlab_rise
+  - PIL
   - tabulate
   - matplotlib
   - numpy
